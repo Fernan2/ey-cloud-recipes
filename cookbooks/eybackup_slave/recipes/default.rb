@@ -11,7 +11,7 @@
 # if ['db_master'].include?(node[:instance_role])
   cron "mysql" do
     minute   '10'
-    hour     '19'
+    hour     '4'
     day      '*'
     month    '*'
     weekday  '*'
